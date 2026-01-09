@@ -1,4 +1,4 @@
-# 삼각형의 완성조건 (1)
+# [삼각형의 완성조건 (1)](https://school.programmers.co.kr/learn/courses/30/lessons/120889)
 ## 풀이
 1. sides 내에서 큰 수의 index를 구한다. maxIndex
 2. 가장 큰 수 를 제외한 나머지 수들의 합(==sumOther==)을 구한다.
@@ -36,8 +36,3 @@ int solution(vector<int> sides) {
     return answer;
 }
 ```
-
-
-## 참고 자료
----
-+ [프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/120889)

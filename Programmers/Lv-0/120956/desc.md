@@ -1,4 +1,4 @@
-# 옹알이 (1)
+# [옹알이 (1)](https://school.programmers.co.kr/learn/courses/30/lessons/120956)
 ## 풀이
 문자열을 생성하고 그대로 대입하는 걸 반복하면 메모리 할당하는 시간 때문에 시간초과가 날 수 있다. 포인터를 쓰거나, 미리 구성해두고 index로 참조하거나 하는 식으로 이 시간을 아낄 수 있다.
 1. 주어진 문자열의 앞글자를 구분한다.
@@ -61,8 +61,3 @@ int solution(vector<string> babbling) {
     return answer;
 }
 ```
-
-
-## 참고 자료
----
-+ [프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/120956)
