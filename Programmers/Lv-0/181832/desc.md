@@ -9,7 +9,7 @@
 using namespace std;
 
 vector<vector<int>> solution(int n) {
-    vector<vector<int>> answer(n,vector<int>(n,0));
+    vector<vector<int>> answer = vector<vector<int>>(n , vector<int>(n,0));
     int num = 1;
     int count = 0;
     int x = 0, y = 0;
@@ -30,14 +30,14 @@ vector<vector<int>> solution(int n) {
         y--;
         x--;
         //x감소
-        while(x >= 0 + count)
+        while(x >= count)
         {
             answer[y][x--] = num++;
         }
         x++;
         y--;
         //y감소
-        while(y > 0 + count)
+        while(y > count)
         {
             answer[y--][x] = num++;
         }
