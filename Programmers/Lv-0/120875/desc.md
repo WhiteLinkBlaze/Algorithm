@@ -1,5 +1,4 @@
 # [평행](https://school.programmers.co.kr/learn/courses/30/lessons/120875)
----
 ## 풀이
 > [!note] 기울기 공식  = (y의 증가량)/(x의 증가량)
 

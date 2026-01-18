@@ -1,5 +1,4 @@
 # [유한소수 판별하기](https://school.programmers.co.kr/learn/courses/30/lessons/120878)
----
 ## 용어
 + 유한 소수('finite decimal' or 'terminating decimal')
 	+ 소수점 아래 숫자가 계속되지 않고 유한개인 소수

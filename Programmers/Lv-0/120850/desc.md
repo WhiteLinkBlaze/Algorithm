@@ -1,5 +1,4 @@
 # [문자열 정렬하기](https://school.programmers.co.kr/learn/courses/30/lessons/120850)
----
 ## 풀이
 1. 추출할 문자 중 숫자는 0 ~ 9 사이만 존재하므로 10칸 짜리 list를 먼저 구성하고 0으로 초기화 한다.
 2. 문자열에서 숫자를 추출한다.
