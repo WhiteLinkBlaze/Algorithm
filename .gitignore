@@ -31,5 +31,11 @@
 *.out
 *.app
 
-#gitmesssage file
+# gitmesssage file
 .gitmessage
+
+# batch file
+*.bat
+
+# text file
+*.txt
