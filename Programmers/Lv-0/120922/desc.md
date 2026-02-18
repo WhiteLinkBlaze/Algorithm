@@ -6,6 +6,10 @@ $$
 count = M - 1 + M \times(N-1)
 $$
 
+$$
+count = M\times N - 1
+$$
+
 ## 코드
 ```cpp
 #include <string>
@@ -15,7 +19,7 @@ using namespace std;
 
 int solution(int M, int N) {
     int answer = 0;
-    answer = M-1 + M*(N-1);
+    answer = M*N-1;
     return answer;
 }
 ```
