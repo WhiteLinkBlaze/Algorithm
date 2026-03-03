@@ -51,3 +51,34 @@ string solution(string video_len, string pos, string op_start, string op_end, ve
     return answer;
 }
 ```
+```python
+def time_to_seconds(time_str):
+    minutes, seconds = map(int, time_str.split(':'))
+    return minutes * 60 + seconds
+
+def seconds_to_time(seconds):
+    minutes, seconds = divmod(seconds, 60)
+    return f"{minutes:02d}:{seconds:02d}"
+    
+def solution(video_len, pos, op_start, op_end, commands):
+    answer = ''
+    pos = time_to_seconds(pos)
+    start = time_to_seconds(op_start)
+    end = time_to_seconds(op_end)
+    v_len = time_to_seconds(video_len)
+    if start <= pos and pos < end:
+        pos = end
+    for command in commands:
+        if command == "next":
+            pos+=10
+        elif command == "prev":
+            pos-=10
+        pos = min(pos, v_len)
+        pos = max(pos, 0)
+        
+        if start <= pos and pos < end:
+            pos = end
+    answer = seconds_to_time(pos)
+        
+    return answer
+```
