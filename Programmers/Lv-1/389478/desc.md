@@ -65,13 +65,13 @@ using namespace std;
 
 int solution(int n, int w, int num) {
     int answer = 0;
-		//complete line
+    //complete line
     int line = n/w;
     // num's line
     int num_line = 1 + (num-1)/w;
     answer = line - num_line + 1;
     //process: extra line
-		int my_box_idx = num_line%2 == 0 ? (w-1) - (num-1)%w: (num-1)%w;
+    int my_box_idx = num_line%2 == 0 ? (w-1) - (num-1)%w: (num-1)%w;
     int extra_box_idx = (line+1)%2 == 0 ? (w-1) - (n-1)%w: (n-1)%w;
     if(line*w < n)
     {
@@ -99,10 +99,10 @@ using namespace std;
 int solution(int n, int w, int num) {
     int answer = 0;
     while(num<=n)
-		{
-			answer++;
-			num+=(w-1-(w+num-1)%w)*2+1;
-		}
+    {
+        answer++;
+        num+=(w-1-(w+num-1)%w)*2+1;
+    }
     return answer;
 }
 ```

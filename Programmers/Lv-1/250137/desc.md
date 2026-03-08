@@ -39,7 +39,7 @@ int solution(vector<int> bandage, int health, vector<vector<int>> attacks) {
         }
         else
         {
-						//bandage
+            //bandage
             if(cur_health < health)
             {
                 cur_health = (cur_health + bandage[1]) > health ? health : (cur_health + bandage[1]);
