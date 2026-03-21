@@ -37,3 +37,27 @@ int solution(int n) {
     return answer;
 }
 ```
+```cpp title='풀이2'
+#include <string>
+#include <vector>
+#include <cmath>
+
+using namespace std;
+
+int solution(int n) {
+    int answer = 0;
+    bool eratos[1'000'001] = {0,};
+    for(int i = 2; i <= n; i++)
+    {
+        if(!eratos[i])
+        {
+            for(int k = 2; i*k <= n; k++)
+            {
+                eratos[i*k]=true;
+            }
+            answer++;
+        }
+    }
+    return answer;
+}
+```
