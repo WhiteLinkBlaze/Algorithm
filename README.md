@@ -7,6 +7,8 @@
 ## 📊 주차별 기록
 | 주차 | 문제 리스트 | 풀이 수 | 비고 |
 | :--- | :--- | :--- | :--- |
+| **Week 12** |  [📁 Week-12](./Weekly-Solved/260323.md) | 8 | 최소공배수,최대공약수 |
+| **Week 11** |  [📁 Week-11](./Weekly-Solved/260316.md) | 8 | 468370 문제 12주차에 풀었음 |
 | **Week 10** |  [📁 Week-10](./Weekly-Solved/260309.md) | 8 | - |
 | **Week 09** |  [📁 Week-09](./Weekly-Solved/260302.md) | 8 | - |
 | **Week 08** |  [📁 Week-08](./Weekly-Solved/260223.md) | 8 | Lv-1 시작 |
