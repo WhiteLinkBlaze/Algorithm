@@ -7,6 +7,7 @@
 ## 📊 주차별 기록
 | 주차 | 문제 리스트 | 풀이 수 | 비고 |
 | :--- | :--- | :--- | :--- |
+| **Week 16** |  [📁 Week-16](./Weekly-Solved/260427.md) | 4 | 문제 개수 줄임 |
 | **Week 15** |  [📁 Week-15](./Weekly-Solved/260413.md) | 8 | 1주 밀렸음 |
 | **Week 14** |  [📁 Week-14](./Weekly-Solved/260406.md) | 8 | - |
 | **Week 13** |  [📁 Week-13](./Weekly-Solved/260330.md) | 8 | - |
